@@ -6,6 +6,10 @@ ul {
  background-color: white;
 }
 
+title {
+  display: center;
+}
+
 li {
  float: center;
  border-right: 2px solid white;
