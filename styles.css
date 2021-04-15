@@ -1,10 +1,12 @@
 body {
-  background-color: powderblue;
+  background-color: white;
 }
+
 h1 {
   color: black;
   font-family: verdana;
 }
+
 p {
   color: red;
 }
