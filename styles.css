@@ -23,6 +23,7 @@ ul {
 li {
  float: left;
  border-right: 2px solid white;
+ font-family: verdana;
 }
 
 /* Add a border to all( but not the last) list items */
@@ -36,6 +37,7 @@ li a {
  text-align: left;
  padding: 15px 17px;
  text-decoration: none;
+ font-family: verdana;
 }
 
 /* Links will change color when hovered over */
