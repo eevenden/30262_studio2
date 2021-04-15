@@ -12,10 +12,11 @@
 
   <!-- Add a `script` tag for Mapbox GL JS's JavaScript -->
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
+  
   <!-- Set the map's width: 800px and height: 600px in a `style` tag -->
-  <style type="text/css">
+  <style>
     #mapId {
-      width: 800px;
+      width: 100%;
       height: 600px;
     }
 
@@ -42,7 +43,7 @@
 
   <script>
     // Set your Mapbox access token
-  mapboxgl.accessToken = 'xx'
+    mapboxgl.accessToken = 'xx'
 
     /* Create a variable called "map" and use it to store a new mapbox gl map.
     * Set your map's center to [-122.467, 37.798] and zoom to 13.
