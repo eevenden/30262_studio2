@@ -7,7 +7,7 @@ ul {
 }
 
 li {
- float: center;
+ float: left;
  border-right: 2px solid white;
 }
 
@@ -26,7 +26,7 @@ li a {
 
 /* Links will change color when hovered over */
 li a:hover {
- background-color: #a09f9f;
+ background-color: #526AFC;
 }
 
 .active {
