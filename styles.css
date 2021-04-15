@@ -4,7 +4,7 @@ body {
 
 h1 {
   color: black;
-  font-family: verdana;
+  font-family: 	Courier New;
 }
 
 p {
@@ -23,7 +23,7 @@ ul {
 li {
  float: left;
  border-right: 2px solid white;
- font-family: verdana;
+ font-family:	Courier New;
 }
 
 /* Add a border to all( but not the last) list items */
@@ -37,7 +37,7 @@ li a {
  text-align: left;
  padding: 15px 17px;
  text-decoration: none;
- font-family: verdana;
+ font-family:	Courier New;
 }
 
 /* Links will change color when hovered over */
