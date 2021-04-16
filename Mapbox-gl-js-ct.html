@@ -68,7 +68,7 @@
      * and set its HTML content to:
      * "<b>The Presidio.</b><br /> Explore to find a drinking fountain!"
      */
-     var popup = new TMLmapboxgl.Popup({className: 'my-class'}).setHTML("<b>The Presidio.</b><br /> Explore to find a drinking fountain!").addTo(map);
+     var popup = new TMLmapboxgl.Popup({}).setHTML("<b>The Presidio.</b><br /> Explore to find a drinking fountain!").addTo(map);
 
     /* Create a variable called "marker,"
      * add to it a new Marker (ref: https://docs.mapbox.com/mapbox-gl-js/api/#marker),
@@ -77,7 +77,7 @@
      * and add it to the map.
      */
      var marker = new mapboxgl.Marker({
-       color: "#FFFFFF",
+       color: "#FC52AC",
        draggable: true
      }).setLngLat([[-122.4700, 37.8011]]).addTo(map);
 
